@@ -1,0 +1,16 @@
+---
+description: Require lint and typecheck when testing code changes
+alwaysApply: true
+---
+
+# Testing Checks
+
+When making code changes, include all checks in verification:
+
+```bash
+npm run lint
+npm run typecheck
+npm run test
+```
+
+If either command cannot be run, mention why in the final response.
